@@ -15,8 +15,21 @@ use Illuminate\Http\Request;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/', function (Request $request) {
+    return response()->json(
+        ResponseHelper::createResponseObject(
+            [
+                'message' => 'Sersi API Backend',
+                'version' => '1.0.0',
+                'status' => 'running'
+            ], 
+            'API Backend is running', 
+            true, 
+            200, 
+            $request
+        ),
+        200
+    );
 });
 
 // Add a simple login route to satisfy Laravel's authentication system
