@@ -1,3 +1,11 @@
+## 📦 Requisitos Previos
+
+Antes de comenzar, asegúrate de tener instalado:
+
+- **Node.js** (versión 16 o superior)
+- **npm** o **yarn** (gestor de paquetes)
+- **Git** (control de versiones)
+
 ## 🛠️ Instalación
 
 ### 1. Clonar el repositorio
@@ -13,7 +21,7 @@ cd Sersi/frontend
 npm install
 ```
 
-### 4. Verificar configuración del backend
+### 3. Verificar configuración del backend
 
 Asegúrate de que el backend esté ejecutándose en `http://127.0.0.1:8000/api/health` .
 
