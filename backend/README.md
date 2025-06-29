@@ -33,7 +33,7 @@ APP_URL=http://localhost:8000
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
-DB_DATABASE=sersi_db
+DB_DATABASE=sersi_db(utiliza o crea una base de datos)
 DB_USERNAME=tu_usuario
 DB_PASSWORD=tu_password
 ```
